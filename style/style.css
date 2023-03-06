@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add_task {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_task input {
+    padding: 10px;
+}
+
+.add_task button {
+    padding: 10px;
+    cursor: pointer;
+   
+}
+
+.tasks{
+    max-width: 1100px;
+    margin: 110px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 190px;
+   
+}
+.product_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border:  2px solid black;
+    width: 240px;
+    height: 310px;
+}
+
+.product_card > div{
+    Width: 185px;
+    Height: 145px;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    font-weight: 400;
+    font-size: 25px;
+}
